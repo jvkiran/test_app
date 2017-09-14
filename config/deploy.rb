@@ -41,3 +41,7 @@ set :assets_roles, [:app]
 # set :webpacked_manifest_path, "webpack-assets.json"
 # set :webpacked_deploy_manifest_path, "webpack-assets-deploy.json"
 after 'deploy:updated', 'deploy:webpacked:build'
+set(:executable_config_files, %w(
+    unicorn_init.sh
+  ))
+set(:symlinks, [{source: "unicorn_init.sh", link: "/etc/init.d/unicorn_"}])
