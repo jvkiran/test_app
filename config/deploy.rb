@@ -2,7 +2,7 @@
 lock "3.9.1"
 
 set :application, "test_app"
-set :repo_url, "git@github.com:grouptable/Ng-Cardlove-API.git"
+set :repo_url, "git@github.com:jvkiran/test_app.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
