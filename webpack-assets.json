@@ -1,0 +1,5 @@
+{
+  "application": {
+    "js": "http://localhost:3500/assets/bundle-application.js"
+  }
+}

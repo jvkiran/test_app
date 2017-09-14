@@ -1,0 +1,8 @@
+{
+  "common": {
+    "js": "/assets/webpack/bundle-common-d94aa863ecd133bc4cbe.js"
+  },
+  "application": {
+    "js": "/assets/webpack/./bundle-application-4c9d3489e9139d6463c5.js"
+  }
+}
